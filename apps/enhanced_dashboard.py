@@ -33,7 +33,7 @@ except ImportError as e:
 
 # Page configuration
 st.set_page_config(
-    page_title="Reddit Automation - Enhanced Dashboard",
+    page_title="AutoReddit Pro - Enhanced Dashboard",
     page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -56,7 +56,7 @@ def initialize_session_state():
 
 def render_header():
     """Render the main header"""
-    st.title("🚀 Reddit Automation - Enhanced Dashboard")
+    st.title("🚀 AutoReddit Pro - Enhanced Dashboard")
     st.markdown("**Complete Workflow: URL → Analysis → Recommendations → Policy-Compliant Posts → Direct Posting**")
     
     # Status indicators

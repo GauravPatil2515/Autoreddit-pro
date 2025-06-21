@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Reddit Automation Toolkit - Main Entry Point
+AutoReddit Pro - Main Entry Point
 Launch the interactive application selector
 """
 
@@ -30,9 +30,9 @@ class Colors:
 def print_banner():
     """Print application banner"""
     print(f"\n{Colors.CYAN}{Colors.BOLD}{'='*80}{Colors.END}")
-    print(f"{Colors.CYAN}{Colors.BOLD}🤖 REDDIT AUTOMATION TOOLKIT{Colors.END}")
-    print(f"{Colors.CYAN}AI-Powered Medium Article to Reddit Posting System{Colors.END}")
-    print(f"{Colors.CYAN}Using Groq's Free Llama Models for Content Generation{Colors.END}")
+    print(f"{Colors.CYAN}{Colors.BOLD}🚀 AUTOREDDIT PRO{Colors.END}")
+    print(f"{Colors.CYAN}AI-Powered Reddit Content Automation{Colors.END}")
+    print(f"{Colors.CYAN}Using Groq's Free Llama Models for Smart Posting{Colors.END}")
     print(f"{Colors.CYAN}{Colors.BOLD}{'='*80}{Colors.END}")
 
 def check_environment() -> bool:
